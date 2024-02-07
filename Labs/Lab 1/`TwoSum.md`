@@ -22,3 +22,9 @@ Given an array of integers `nums` and an integer `target`, return indices of the
    - Use a dictionary to store the difference between the target and each element.
    - Iterate through the array and check if the complement exists in the dictionary.
    - Return the indices if a complement is found.
+
+## Testing 
+Given the input array [2, 7, 11, 15] and target 9, the expected output is [0, 1] since nums[0] + nums[1] = 2 + 7 = 9.
+
+## Conclusion 
+The code provides two different approaches to solving the TwoSum problem - a brute-force method and an optimized approach using HashMap (Java) or Dictionary (Python). The optimized solution reduces the time complexity for better efficiency.
