@@ -15,7 +15,7 @@ public class TwoSum {
   }
     //No solution found
   throw new IllegalArgumentException("No two sum solution");
-  }
+  
 
 public static void main(String[] args) {
   int[] nums = {3,5,10,14};
