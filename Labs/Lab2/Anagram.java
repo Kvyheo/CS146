@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-public class IsAnagram {
-  public static boolean (String s, String t){
+public class Anagram {
+  public static boolean IsAnagram (String s, String t){
     if (s.length() != t.length()) {
       return false; }
   
@@ -13,9 +13,10 @@ public class IsAnagram {
   return Arrays.equals(arrayS, arrayT);
   }
 
-public static void main(Strings[] args) {
+public static void main(String[] args) {
   String s = "silent";
   String t = "listen";
 
-  System.out.println(IsAnagram(s,t);
+  System.out.println(IsAnagram(s,t));
+}
 }
