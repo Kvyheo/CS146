@@ -13,6 +13,13 @@ You are a product manager leading a team to develop a new product. Unfortunately
 4. At the end, left and right converge to the first and last version.
 
 ### Python Implementation:
+Use binary search to find the first bad version.
+2. Initiate left and right pointers to the first and last versions.
+3. While left < right:
+- Calculate mid as (left + right) / 2.\
+- If `isBadVersion(mid)` returns true, search in the letf half (set right = mid).
+- If `isBadVersion(mid)` returns false, search in the right half (set left = mid + 1).
+4. At the end, left and right converge to the first and last version.
 
 ## Testing 
 1. Test the `firstBadVersion` function with sample input:
