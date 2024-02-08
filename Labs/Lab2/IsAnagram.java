@@ -1,7 +1,5 @@
 import java.util.Arrays;
-// Return false if length different
-// Loop through first letter and see if 2nd word has it
-// Return false if it does not
+
 public class IsAnagram {
   public static boolean (String s, String t){
     if (s.length() != t.length()) {
